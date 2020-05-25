@@ -77,7 +77,7 @@ figure {
   position: relative; }
 
 .particles-js {
-  position: absolute !important;
+  position: fixed !important;
   z-index: 0;
 }
 
