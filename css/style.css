@@ -103,7 +103,7 @@ figure {
       -ms-transform: translateX(-300px);
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
-      padding-top: 4em; } }
+      padding-top: 2em; } }
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
@@ -508,6 +508,11 @@ body.offcanvas {
   display: block;
   background-color:#333;color:#ffffff;
 }
+@media only screen and (max-width: 992px) {
+  .myContent{
+    font-size: 14px;
+  }
+}
 
 .about-img {
   width: 100%;
@@ -614,12 +619,25 @@ body.offcanvas {
   bottom: 20px;
   margin-left: 29px; }
 
+@media only screen and (max-width: 600px) {
+  .timeline-centered:before {
+    margin-left: 9px; 
+  }
+}
+
 .timeline-centered .timeline-entry {
   position: relative;
   margin-top: 5px;
   margin-left: 30px;
   margin-bottom: 10px;
   clear: both; }
+
+@media only screen and (max-width: 600px) {
+  .timeline-centered .timeline-entry {
+    margin-left: 10px; 
+  }
+}
+
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
   position: relative;
@@ -689,6 +707,10 @@ body.offcanvas {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
   /* font-size: 20px; */
   color: #000;}
+
+  @media screen and (max-width: 992px) {
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
+      font-size: 13px; } }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label .padLi {
   /* font-size: 20px; */
@@ -802,9 +824,14 @@ body.offcanvas {
       z-index: 1;
       display: table-cell;
       vertical-align: middle; }
+     @media only screen and (max-width: 600px) {
+      .services .icon img .padOnMobile{
+        display: block;
+        margin: 0 auto; }
+      }
   .services .desc {
     margin-top: 60px; 
-  color: #000;}
+    color: #000;}
     .services .desc h3 {
       font-size: 16px;
       font-weight: 700;
