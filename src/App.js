@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div id="colorlib-page">
         <div id="container-wrap">
-          <ParticleJS />
+          <ParticleJS></ParticleJS>
           <Sidebar></Sidebar>
           <div id="colorlib-main">
             <Introduction></Introduction>

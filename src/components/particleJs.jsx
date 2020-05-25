@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 import ParticlesTS from "react-tsparticles";
 
 const pjs = {
@@ -64,7 +65,7 @@ const pjs = {
     },
   },
   interactivity: {
-    detect_on: "canvas",
+    detect_on: "window",
     events: {
       onhover: {
         enable: false,

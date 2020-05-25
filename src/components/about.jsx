@@ -78,7 +78,7 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                   <span className="icon">
-                    <img className="" style={{height:'2.5em'}} src="icons/svg/025-neural.svg" alt="Data Science Logo" />
+                    <img className="padOnMobile" style={{height:'2.5em'}} src="icons/svg/025-neural.svg" alt="Data Science Icon" />
                   </span>
                   <div className="desc">
                     <h3>Data Science &amp; Analytics</h3>
