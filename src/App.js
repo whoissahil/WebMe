@@ -4,6 +4,8 @@ import Sidebar from './components/sidebar'
 import Introduction from './components/introduction'
 import About from './components/about'
 import Timeline from './components/timeline'
+import ParticleJS from "./components/particleJs";
+
 
 
 class App extends Component {
@@ -11,6 +13,7 @@ class App extends Component {
     return (
       <div id="colorlib-page">
         <div id="container-wrap">
+          <ParticleJS />
           <Sidebar></Sidebar>
           <div id="colorlib-main">
             <Introduction></Introduction>

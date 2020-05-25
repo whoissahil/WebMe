@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
-import Particles from "react-particles-js";
+import ParticlesTS from "react-tsparticles";
 
 const pjs = {
   particles: {
     number: {
-      value: 100,
+      value: 50,
       density: {
         enable: true,
         value_area: 800,
@@ -108,7 +108,7 @@ const pjs = {
 export default class ParticleJS extends Component {
   render() {
     return (
-      <Particles
+      <ParticlesTS
         canvasClassName="particles-js"
         width="100%"
         height="100%"
