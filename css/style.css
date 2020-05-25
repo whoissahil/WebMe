@@ -354,7 +354,8 @@ figure {
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-            text-align: center; } }
+            text-align: center; 
+            margin-top:auto;} }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
@@ -468,8 +469,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 3em;
+      padding-bottom: 3em; } }
 
 .author-img {
   background-size: cover;
@@ -710,7 +711,7 @@ body.offcanvas {
 
   @media screen and (max-width: 992px) {
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
-      font-size: 13px; } }
+      font-size: 14px; } }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label .padLi {
   /* font-size: 20px; */
@@ -825,13 +826,16 @@ body.offcanvas {
       display: table-cell;
       vertical-align: middle; }
      @media only screen and (max-width: 600px) {
-      .services .icon img .padOnMobile{
+      .services .icon img{
         display: block;
-        margin: 0 auto; }
+        margin: 0 auto;}
       }
   .services .desc {
     margin-top: 60px; 
     color: #000;}
+  @media screen and (max-width: 992px) {
+    .services .desc {
+      font-size: 14px; } }
     .services .desc h3 {
       font-size: 16px;
       font-weight: 700;
@@ -1442,9 +1446,9 @@ body.offcanvas {
   cursor: pointer;
   text-decoration: none; }
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
-    background: #000; }
+    background: #ccc; }
   .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
-    background: #000; }
+    background: #ccc; }
   .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
@@ -1456,11 +1460,11 @@ body.offcanvas {
     *display: inline;
     width: 30px;
     height: 2px;
-    color: #000;
+    color: #ccc;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #000;
+    background: #ccc;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
@@ -1468,7 +1472,7 @@ body.offcanvas {
       content: '';
       width: 30px;
       height: 2px;
-      background: #000;
+      background: #ccc;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -1476,8 +1480,8 @@ body.offcanvas {
       transition: 0.2s; }
   .colorlib-nav-toggle.dark i {
     position: relative;
-    color: #000;
-    background: #000;
+    color: #ccc;
+    background: #ccc;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
