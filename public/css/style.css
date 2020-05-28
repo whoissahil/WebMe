@@ -735,7 +735,7 @@ body.offcanvas {
   margin-bottom: 30px;
   background-color: #ccc;
   padding: 1.5em;
-  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 0px 0px 106px -8px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -778,13 +778,17 @@ body.offcanvas {
   .services .icon {
     position: absolute;
     top: -20px;
-    left: 0;
-    right: 0;
+    left: 0 !important;
+    right: 0 !important;
     width: 100px;
     height: 50px;
     display: table;
-    margin: 0 auto;
+    margin: 0 35%;
     background: #2c98f0; }
+     @media only screen and (max-width: 600px) {
+      .services .icon{
+      margin: 0 37%;}
+      }
     .services .icon:before, .services .icon:after {
       position: absolute;
       left: 0;
@@ -824,7 +828,8 @@ body.offcanvas {
       margin-top: 5px;
       z-index: 1;
       display: table-cell;
-      vertical-align: middle; }
+      vertical-align: middle; 
+      margin: 0 auto}
      @media only screen and (max-width: 600px) {
       .services .icon img{
         display: block;
