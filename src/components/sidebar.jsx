@@ -33,7 +33,7 @@ export default class Sidebar extends Component {
                 <li><a href="https://www.linkedin.com/in/whoissahil/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size="2em" /></a></li>
                 <li><a href="https://github.com/whoissahil" target="_blank" rel="noopener noreferrer"><FaGithub size ="2em"/></a></li>
                 <li><a href="https://medium.com/@whoissahil" target="_blank" rel="noopener noreferrer"><FaMediumM size="2em"/></a></li>
-                <li><a href="assets/Resume.pdf" target="_blank" rel="noopener noreferrer"><FaTasks size="2em"/></a></li>
+                <li><a href="https://docs.google.com/document/d/1eQoTG7tInq4b5CXQ6gOepA0_LCQz9eaP7YY-W3jxxyQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><FaTasks size="2em"/></a></li>
 
               </ul>
             </nav>
