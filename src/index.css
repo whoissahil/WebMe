@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Fira_Code';
+  src: local('Fira_Code'), url(./fonts/Fira_Code/ttf/FiraCode-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira_Code_Semi_Bold';
+  src: local('Fira_Code_Semi_Bold'), url(./fonts/Fira_Code/ttf/FiraCode-SemiBold.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;

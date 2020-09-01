@@ -71,6 +71,7 @@ export default class About extends Component {
                     <p>
                       I have experience building Web Apps and Website
                       using JavaScript, React, HTML, CSS, Django, Flask, and MEAN stack.
+                      Check my <a href="https://github.com/whoissahil" target="_blank" rel="noopener noreferrer">💻 Projects Mayhem</a>
                     </p>
                   </div>
                 </div>

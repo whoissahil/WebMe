@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 // import { FaTasks, FaGithub, FaLinkedinIn, FaTwitter, FaMediumM } from "react-icons/fa";
+import Typist from "react-typist";
 
 export default class Introduction extends Component {
   render() {
@@ -12,11 +13,11 @@ export default class Introduction extends Component {
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                    <div className="col-md-12 col-md-offset-12 col-md-pull-12 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
-                          <h1>Namastey, <br />I'm Sahil</h1>
-                          <p ><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/1eQoTG7tInq4b5CXQ6gOepA0_LCQz9eaP7YY-W3jxxyQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View CV</a></p>
+                          <h1>Namastey, I'm Sahil</h1>
+                          <h2><a href="https://docs.google.com/document/d/1eQoTG7tInq4b5CXQ6gOepA0_LCQz9eaP7YY-W3jxxyQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">📄 Brag-Sheet (CV for normal people)</a></h2>
                         </div>
                       </div>
                     </div>
@@ -27,11 +28,11 @@ export default class Introduction extends Component {
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                    <div className="col-md-12 col-md-offset-12 col-md-pull-12 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>Code &amp;<br /> Coffee</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://github.com/whoissahil" target="_blank" rel="noopener noreferrer">View Projects</a></p>
+                          <h1>Code &amp; Coffee</h1>
+                          <h2><a href="https://github.com/whoissahil" target="_blank" rel="noopener noreferrer">💻 Projects Mayhem</a></h2>
                         </div>
                       </div>
                     </div>
@@ -42,11 +43,11 @@ export default class Introduction extends Component {
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                    <div className="col-md-12 col-md-offset-12 col-md-pull-12 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>Happy to <br/>Connect :) </h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://www.linkedin.com/in/whoissahil/" target="_blank" rel="noopener noreferrer"> Connect with me</a></p>
+                          <h1>Happy to Connect :) </h1>
+                          <h2><a  href="https://www.linkedin.com/in/whoissahil/" target="_blank" rel="noopener noreferrer">🤝 Hook it Up</a></h2>
                         </div>
                       </div>
                     </div>
